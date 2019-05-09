@@ -98,4 +98,4 @@ This section is same as [official document](https://microsoft.github.io/AirSim/d
 ### Reference 
 1. [Airsim](https://github.com/Microsoft/AirSim)
 2. [AirSimをUnreal Engine, Visual Studio 2017でビルドする(Windows編)](https://qiita.com/thrzn41/items/32171647c15c8da37f31)
-3. [Microsoft PowerShell Document](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/Expand-Archive?view=powershell-5.0)# Carsimulator
+3. [Microsoft PowerShell Document](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/Expand-Archive?view=powershell-5.0)
