@@ -1,6 +1,9 @@
 
 
 # RUN CAR SIMULATOR AIRSIM
+![picture1](https://github.com/utagoeinc/Carsimulator/blob/master/1.PNG)
+![picture2](https://github.com/utagoeinc/Carsimulator/blob/master/2.PNG)
+![picture3](https://github.com/utagoeinc/Carsimulator/blob/master/3.PNG)
 We run car simulator [AirSim](https://microsoft.github.io/AirSim/) on own map.
 1. About AirSim
 2. Environment
@@ -85,9 +88,7 @@ This section is same as [official document](https://microsoft.github.io/AirSim/d
 3. Open Unreal Engine(Double click "Project.uproject") and set AirSimGame Mode on World Setting -> GameMode Override.
 4. YOU DID IT! PLAY AIRSIM.
 
-![picture1](https://github.com/utagoeinc/Carsimulator/blob/master/1.PNG)
-![picture2](https://github.com/utagoeinc/Carsimulator/blob/master/2.PNG)
-![picture3](https://github.com/utagoeinc/Carsimulator/blob/master/3.PNG)
+
 
 ### 4. Appendix
 
