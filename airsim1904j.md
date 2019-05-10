@@ -1,5 +1,7 @@
 # 自動車シミュレータの実行
-
+![picture1](https://github.com/utagoeinc/Carsimulator/blob/master/1.PNG)
+![picture2](https://github.com/utagoeinc/Carsimulator/blob/master/2.PNG)
+![picture3](https://github.com/utagoeinc/Carsimulator/blob/master/3.PNG)
 自動車シミュレータの[AirSim](https://microsoft.github.io/AirSim/)を自作したMAPの上で実行しました。
 
 1. AirSimについて
@@ -38,12 +40,11 @@ AirSimにはバージョンが1.2.1,1.2.0等がありますがVC++の内部で�
 
 ### 3.3 Build AirSim
 
-There are 2 things you have to do before you build.(On 09 May 2019)
+ここでビルドの前に行うことが２つあります。(On 09 May 2019)
+１．"Half.h"のエンコードを使って"utf-8" から "utf-8(with BOM)"へ変更してください。僕はVScodeを使いました。ファイルは"airsim-master\airlib\deps\eigen3\eigen\src\core\arch\cuda"にあります。
+２．VS2017で"Airsim.sln"を開いて、ソリューションエクスプローラーを右クリックしてプロジェクトの再ターゲットを選んでください。v141へアップグレードを選んで再ターゲットします。
 
-1. Change "Half.h"'s encode from "utf-8" to "utf-8(with BOM)". I reccomend you to use vscode.
-   File is in "airsim-master\airlib\deps\eigen3\eigen\src\core\arch\cuda"
-2. Open "Airsim.sln" with VS2017 and open the shortcut menu for your project and then choose Reload Project in Solution Explorer. Then choose update to v141 in platform toolset.
-3. Run "build.cmd".
+3. "build.cmd"を実行してください。
 
 ### 3.4 Install AirSim Plugin
 
@@ -84,11 +85,8 @@ There are 2 things you have to do before you build.(On 09 May 2019)
 ```
 
 3. Unreal Engineを開いてWorldsetting -> GameMode OvverrideにてAirSimGameModeを選びます。
-4. Play AirSim.
+4. Play AirSim！
 
-![picture1](1.PNG)
-![picture2](2.PNG)
-![picture3](3.PNG)
 
 ### 4. 付録
 
